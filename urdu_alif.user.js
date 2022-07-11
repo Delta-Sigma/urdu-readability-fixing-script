@@ -53,6 +53,7 @@ function add_css(css_string) {
 add_css(' \
 	:dir(rtl) { \
 		font-size: 105%; \
+		word-spacing: 110%; \
 		line-height: normal !important;\
 		text-shadow: 0px 0px 0.4px gray !important;\
 		font-family: "Jameel Noori Nastaleeq", "Alvi Nastaleeq", "Fajer Noori Nastaleeq" !important;\
