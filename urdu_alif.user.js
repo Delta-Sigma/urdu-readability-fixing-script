@@ -50,17 +50,25 @@ function add_css(css_string) {
 //   p.setAttribute('dir', dir);
 // });
 
-
 add_css(' \
-	*[dir="rtl"], \
-	[lang="ur"] \
-	{ \
-		font-size: initial !important;\
+	:dir(rtl) { \
+		font-size: 105%; \
 		line-height: normal !important;\
-		font-size: 135% !important;\
 		text-shadow: 0px 0px 0.4px gray !important;\
 		font-family: "Jameel Noori Nastaleeq", "Alvi Nastaleeq", "Fajer Noori Nastaleeq" !important;\
 	} \
 	');
+
+// add_css(' \
+// 	*[dir="rtl"], \
+// 	[lang="ur"] \
+// 	{ \
+// 		font-size: initial !important;\
+// 		line-height: normal !important;\
+// 		font-size: 135% !important;\
+// 		text-shadow: 0px 0px 0.4px gray !important;\
+// 		font-family: "Jameel Noori Nastaleeq", "Alvi Nastaleeq", "Fajer Noori Nastaleeq" !important;\
+// 	} \
+// 	');
 //add_css(' *[dir="rtl"] { line-height: 135%; font-size: 135%; font-family: "Jameel Noori Nastaleeq", "Alvi Nastaleeq", "Fajer Noori Nastaleeq" !important ;}');
 //add_css(' *[lang="ur"] {line-height: normal !important; font-size: 135% !important; text-shadow: 0px 0px 0.4px gray !important; font-family: "Jameel Noori Nastaleeq", "Alvi Nastaleeq", "Fajer Noori Nastaleeq" !important ;}');
